@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Basketball Scoreboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Basketball Scoreboard</h1>
+      <img id="logo" src="./images/309539.svg" />
+    </header>
+    <main>
+      <div class="score-container">
+        <div class="home-container">
+          <h2>HOME</h2>
+          <h3 id="home-score">0</h2>
+          <div class="button-container">
+            <button id="home-1" onclick="scoreTracker1(event)">+ 1</button>
+            <button id="home-2" onclick="scoreTracker2(event)">+2</button>
+            <button id="home-3" onclick="scoreTracker3(event)">+3</button>
+          </div>
+        </div>
+        <div class="guest-container">
+          <h2>GUEST</h2>
+          <h3 id="guest-score">0</h3>
+          <div class="button-container">
+            <button id="guest-1" onclick="scoreTracker1(event)">+ 1</button>
+            <button id="guest-2" onclick="scoreTracker2(event)">+2</button>
+            <button id="guest-3" onclick="scoreTracker3(event)">+3</button>
+          </div> 
+        </div>
+      </div>
+      <button id="btn-new-game" onclick="newGame()">New Game</button>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

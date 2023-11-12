@@ -1,0 +1,98 @@
+@font-face {
+  src: url(./fonts/CursedTimerUlil.ttf);
+  font-family: "Cursed Timer";
+}
+
+body {
+  min-height: 100vh;
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  background-color: #1b244a;
+  margin: 0 auto;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+#logo {
+  color: orange;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  gap: 0px 100px;
+  margin: 0 auto;
+  padding: 0 40px 30px 40px;
+  flex-wrap: wrap;
+}
+
+.home-container,
+.guest-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-score,
+#guest-score {
+  height: 120px;
+  width: 117px;
+  background-color: black;
+  font-family: "Cursed Timer";
+  font-size: 90px;
+  line-height: 120px;
+  margin: 20px 0;
+  color: #f94f6d;
+}
+
+.button-container button {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-size: 18px;
+}
+
+.button-container button:hover,
+#btn-new-game:hover {
+  background-color: aqua;
+  cursor: grab;
+}
+
+.home-container h2,
+.guest-container h2 {
+  margin-bottom: 0px;
+}
+
+main {
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#btn-new-game {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  background-color: #1b244a;
+  color: #9aabd8;
+  font-size: 18px;
+  padding: 5px 10px;
+}
